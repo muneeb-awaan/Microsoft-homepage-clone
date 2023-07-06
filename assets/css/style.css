@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    
+        
+}
+.ms-primary-navbar{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
+.ms-primary-navbar ul{    
+    display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.ms-primary-navbar ul li {  
+    padding: 0 8px;  
+
+}
+.ms-primary-navbar ul li a{    
+text-decoration: none;
+color: rgb(79, 72, 72);
+}
+
+.underline-text{
+    text-decoration: underline;
+}
+
+.ms-logo{
+
+    text-decoration:rgb(67, 65, 65);
+    font-weight: bold;
+    font-size:larger;
+}
+
+.ms-hero{
+    margin-bottom: 100px;
+
+}
+
+.hero-img img{
+    width: 100%;
+}
+
+.hero-content{
+    
+    position:relative
+    
+
+}
+
+.hero-text{
+        width: 400px;
+        height: 250px;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        
+}
+
+.hero-text  h1{
+font-size:xx-large;
+font-weight:600;
+}
+
+.hero-anchors{
+    list-style-type: none;
+    display: flex;
+    font-weight: 600;
+}
+
+
+.hero-anchor1{
+    background-color: #0067b8;
+    color: white;
+    margin-right: 50px;
+    margin-top: 10px;
+    display: block;
+    height: 20px;
+    padding: 9px;
+
+
+      
+}
+
+.hero-anchor2{
+    color: rgb(0, 0, 0);
+}
+
+.anchor2{
+    padding-top: 20px;
+}
+
+.hero-text a{
+    text-decoration: none;
+}
+
+.ms-flexed{
+    display: flex;
+    margin-right: 30px;
+}
+
+.ms-flexed img{
+    width: 100%;
+}
+.ms-flexed ul {
+    list-style-type: none;
+    text-decoration: none;
+
+     
+}
+
+.P-item{
+    margin-left: 10px;
+width: 320px;
+}
+
+.P-item h2{
+    font-weight: 600;
+}
+
+.P-item-link a{
+color: #0067b8;
+text-decoration: none;
+font-weight:600;
+}
+
+#a{
+    margin-top: 90px;
+    margin-left: 50px;
+    margin-bottom: 8px;
+}
+
+.links{
+    display: flex;
+    
+}
+.links ul {
+
+    display: flex;
+
+    margin-top: 15px;
+    margin-right: 700px;
+  list-style-type: none;
+ text-decoration: none;
+     }
+
+.links ul li {
+    margin-right: 20px;
+}
+
+.links{
+    display: flex;
+
+    
+}
+
+.uplink{
+    background-color: rgb(202, 196, 196);
+    font-weight: 500;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(244, 237, 237);
+}
+
+.footer ul li a {
+text-decoration: none;
+color: rgb(86, 81, 81);
+font-size: small;
+}
+
+.footer ul li{
+    list-style-type: none;
+
+}
+
+.heading {
+color: rgb(88, 82, 82);
+}
